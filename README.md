@@ -1,12 +1,48 @@
-# PetShop
-Projeto de PetShop desenvolvido na linguagem de Java junto com uma integração ao banco de dados SQL.
+# 🐾 Projeto PetShop
 
-Trabalho desenvolvido no 2° semestre da faculdade de Análise e Desenvolvimento de Sistemas, em conjunto com meu colega Mateus Matana, durante a aula de Algoritmos e Programação II ministrada pelo 
-professor Alisson Moscato Loy. 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-O projeto, é um sistema simples que possibilita a gestão de um petshop, onde permite que o usuário adicione seus clientes, ligue os clientes com seus pets (onde um cliente pode ter vários pets), adicionando também todos os 
-serviços que o pet utilizou no petshop, como tosa, banho, ração e produtos relacionados. Todos estes serviços vão sendo somados a uma conta que cada cliente irá possuir, onde poderão ter um saldo de
-crédito ou um saldo devedor. Além disso, o sistemapossibilita a exclusão dos clientes e também a exclusão de seus pets. 
-Como ultima opção, o sistema possibilita que seja gerada uma lista com todos os clientes que possuem saldo negativo ou saldo positivo, além de uma lista com todos os clientes e seu respectivos pets. 
+Sistema de gestão de PetShop desenvolvido em **Java**, com integração a banco de dados **MySQL**.
 
-O sistema possui tratamento de erros nas entradas dos usuários e também na conversão/acesso dos dados do banco MySQL.
+---
+
+## 📚 Sobre o projeto
+
+Este projeto foi desenvolvido no **2º semestre** do curso de **Análise e Desenvolvimento de Sistemas**, durante a disciplina de **Algoritmos e Programação II**, ministrada pelo professor **Alisson Moscato Loy**.  
+O trabalho foi realizado em conjunto com o colega **Mateus Matana**.
+
+---
+
+## ✨ Funcionalidades
+
+- Cadastro de **clientes**.
+- Associação de **pets** aos seus respectivos donos (um cliente pode ter vários pets).
+- Registro de **serviços** utilizados pelos pets:
+  - Tosa 
+  - Banho 
+  - Venda de rações e produtos
+  - Vacina
+  - Castração
+- Controle financeiro:
+  - Acompanhamento de **saldos positivos** e **saldos devedores**.
+- Exclusão de **clientes** e **pets**.
+- Geração de relatórios:
+  - Clientes com saldo positivo 
+  - Clientes com saldo negativo 
+  - Listagem completa de clientes e seus pets
+
+---
+
+## 🔒 Diferenciais
+
+- **Tratamento de erros** nas entradas do usuário.
+- **Validação de dados** no acesso ao banco de dados **MySQL**.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- **Java 8+**
+- **MySQL 8.0**
+- **JDBC** (para conexão com o banco de dados)
